@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 0; i < publicStorage.friendList.size(); i++) {
                     Contacts temp = publicStorage.friendList.get(i);
                     if (temp.getFlag()) {
-                        manager.sendTextMessage(temp.getPhoneNum(), null, "Where", sentIntent, deliveryIntent);
+                        manager.sendTextMessage(temp.getPhoneNum(), null, "Where are u?", sentIntent, deliveryIntent);
                     }
                 }
             }
